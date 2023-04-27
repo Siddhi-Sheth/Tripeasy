@@ -1,16 +1,23 @@
 import './App.css';
 import "./style.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Review from './components/Review/Review';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar/>
-      <Review/>
+        <Routes>
+          <Route path="/review" element={<Review/>}/>
+          <Route path="/trips" element={<Review/>}/>
+          <Route path="/alerts" element={<Review/>}/>
+          <Route path="/signin" element={<Review/>}/>
+          <Route path="/cart" element={<Review/>}/>
+        </Routes>
       <Footer/>
-    </div>
+    </BrowserRouter>  
   );
 }
 

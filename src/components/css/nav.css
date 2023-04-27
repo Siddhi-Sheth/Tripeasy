@@ -29,7 +29,7 @@
     padding: 5px;
 }
 
-.nav-links a{
+.nav-links .nav-link-item{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -64,9 +64,20 @@
 }
 
 
+@media screen and (max-width:640px) and (min-width:890px){
+    .navbar-padding{
+        padding: 2rem 2rem;
+        background-color: red;
+    }
+}
+
 @media screen and (max-width:890px) {
     .navbar-padding{
         margin-left: 50px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
     }
     .nav-items{
         display: flex;
@@ -83,7 +94,7 @@
         justify-content: center;
         text-align: center;
     }
-    .nav-links a{
+    .nav-links .nav-link-item{
         padding: 4px;
     }
 
@@ -109,7 +120,7 @@
         gap: 0%;
         justify-content: left;
     }
-    .nav-links a{
+    .nav-links .nav-link-item{
         justify-content: space-between;
     }
 }

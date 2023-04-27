@@ -1,8 +1,10 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import './css/nav.css' 
 
 const Navbar = () => {
   return (
+    <>
     <div className='navbar'>
         <div className='navbar-padding'>
             <div className='nav-items'>
@@ -10,15 +12,16 @@ const Navbar = () => {
                     <img className='nav-img' src="./images/logo.svg" alt="logo"/>
                 </div>
                 <div className='nav-links'>
-                    <a href='/'><span className="material-symbols-outlined item-icon">edit</span>Review</a>
-                    <a href='/'><span className="material-symbols-outlined item-icon">favorite</span>Trips</a>
-                    <a href='/'><span className="material-symbols-outlined item-icon">notifications</span>Alerts</a>
+                    <Link to='/review' className='nav-link-item'><span className="material-symbols-outlined item-icon">edit</span>Review</Link>
+                    <Link to='/trips' className='nav-link-item'><span className="material-symbols-outlined item-icon">favorite</span>Trips</Link>
+                    <Link to='/alerts' className='nav-link-item'><span className="material-symbols-outlined item-icon">notifications</span>Alerts</Link>
                     <button type='submit' className='sign-in-btn'>Sign in</button>
-                    <a href='/'><span className="material-symbols-outlined item-icon">shopping_cart</span>Cart</a>
+                    <Link to='/cart' className='nav-link-item'><span className="material-symbols-outlined item-icon">shopping_cart</span>Cart</Link>
                 </div>
             </div>
         </div>
     </div>
+    </>
   )
 }
 

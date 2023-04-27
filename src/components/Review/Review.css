@@ -28,10 +28,6 @@
 }
 .header .search-trip{
     background-color: white;
-    /* width: 65%;
-    margin-left: 20%;
-    margin-right: 20%; */
-    /* padding: 0.1rem; */
     border-radius: 30px;
     border: 1px solid #e0e0e0;
 }
@@ -40,7 +36,6 @@
     align-items: center;
     justify-content: left;
     text-align: left;
-    /* margin-top: 3px; */
     margin-bottom: 3px;
     padding: 3px;
     margin-left: 7px;
@@ -57,59 +52,77 @@
     display: flex;
     justify-content: center;
     gap:2rem ;
-    /* flex-wrap: wrap; */
     flex-direction: row;
     margin: 1rem;
     margin-bottom: 0%;
 }
 
-/* .myReview{
+.myReview{
     padding: 4rem 4rem;
     display: flex;
     flex-direction: row;
 }
-
 .Reviews{
-    padding-left: 10px;
-}
-.example {
-    position: relative;
-    background: linear-gradient(to top,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 100%);
-    /* padding: 20px; 
-    display: block;
-}*/
-  
-/*
-.example h1 {
-    position: absolute;
-    top:45%;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
     padding: 20px;
 }
 
-.example h6 {
-    position: absolute;
-    top: 60%;
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
+.Review-img{
+    position: relative;
     padding: 20px;
+    justify-content: right;
 }
-  
-.example img {
+
+.example{
+    position: relative;
+    margin-left: 30px;
+    justify-content: right;
+}
+
+.example img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.img-content{
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+    color: white;
+    text-align: left;
     width: 100%;
 }
 
-.example .btn{
-    position: relative;
-    display: inline-block;
-    top: 75%;
-    margin: 0%;
+.img-content h1{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.img-content h6{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0%;
+}
+
+.img-content .btn{
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.img-content .btn:hover{
+    background-color: #e0e0e0;
     color: black;
-    background-color: wheat;
-} */
+}
+
+.below-para{
+    padding: 20px 40px;
+    align-items: center;
+    text-align: center;
+}
 
 @media screen and (min-width:761px) {
     .header .search-trip{
@@ -159,8 +172,40 @@
     }
 }
 
-/* .padding-div{
-    background: linear-gradient(to top,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 100%);
-    padding: 0px;
-    margin: 20px;
-} */
+@media screen and (max-width:1075px) {
+    .myReview{
+        display: flex;
+        flex-direction: column;
+    }
+    .Reviews{
+        padding-left: 50px;
+    }
+    .example img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .img-content{
+        padding: 40px;
+        top: 55%;
+    }
+
+    .img-content h1{
+        font-size: 35px;
+    }
+    .img-content h6{
+        font-size: 20px;
+    }
+    .img-content .btn{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .myReview{
+       padding: 2rem 2rem;
+    }
+    .img-content{
+        padding: 40px;
+        top: 30%;
+    }
+}

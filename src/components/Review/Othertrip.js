@@ -1,5 +1,5 @@
 import React from 'react'
-import './Othertrip.css'
+import './Review.css'
 
 const Othertrip = () => {
   return (
