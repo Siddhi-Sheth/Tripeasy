@@ -20,7 +20,7 @@ const Explore = (Props) => {
                 // when window width is >= 640px
                 320: {
                     width: 320,
-                    slidesPerView: 0.5,
+                    slidesPerView: 0.9,
                   },
                 640: {
                   width: 640,
