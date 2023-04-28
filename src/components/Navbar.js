@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='navbar-padding'>
             <div className='nav-items'>
                 <div className='nav-logo'>
-                    <img className='nav-img' src="./images/logo.svg" alt="logo"/>
+                    <Link to='/home'><img className='nav-img' src="./images/logo.svg" alt="logo" /></Link>
                 </div>
                 <div className='nav-links'>
                     <Link to='/review' className='nav-link-item'><span className="material-symbols-outlined item-icon">edit</span>Review</Link>
