@@ -1,6 +1,7 @@
 .Tours{
     padding: 4rem 6rem;
     background-color: white;
+    /* position: relative; */
 }
 
 .Tours .swiper-slide{

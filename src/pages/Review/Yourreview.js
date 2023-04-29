@@ -10,7 +10,7 @@ const Yourreview = () => {
         </div>
         <div className='Review-img'>
             <div class="example">
-                <img src="./images/Review/why_review_image.png" alt=''/>
+                <img src="./assets/Review/why_review_image.png" alt=''/>
                 <div className='img-content'>
                     <h1>Why review?</h1>
                     <h6>See how your reviews help millions of travellers and business owners</h6>
