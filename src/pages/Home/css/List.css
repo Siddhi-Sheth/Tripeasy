@@ -1,0 +1,50 @@
+.List{
+    padding: 4rem 4rem;
+}
+
+.List-wrap{
+    display: flex;
+    background-color: #faf1ed;
+    max-height: 250px;
+    flex-direction: row;
+    padding: 2rem 0rem;
+}
+
+.List-content{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.List-content p{
+    line-height: 22px;
+    color: #333;
+}
+
+.List-image{
+    width: 100%;
+}
+
+.List-image img{
+    object-fit: cover;
+    margin-left:15%;
+    width: 70%;
+    height: 100%;
+}
+
+@media screen and (min-width:320px ) and (max-width:698px) {
+    .List-wrap{
+        display: flex;
+        background-color: #faf1ed;
+        max-height: 600px;
+        flex-direction: column;
+    }
+    .List-content{
+        text-align: center;
+    }
+    .List-image img{
+        object-fit: cover;
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+}

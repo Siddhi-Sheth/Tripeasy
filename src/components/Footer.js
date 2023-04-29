@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/footer.css' 
+import './footer.css' 
 
 const Footer = () => {
   return (
@@ -36,10 +36,10 @@ const Footer = () => {
                 <div className='footer-links-div'>
                     <h4>Follow us on</h4>
                     <div className='socialmedia'>
-                    <p><img src='./images/icons/facebook.png' alt='fb'/></p>
-                    <p><img src='./images/icons/twitter.png' alt='tweet'/></p>
-                    <p><img src='./images/icons/pinterest.png' alt='pint'/></p>
-                    <p><img src='./images/icons/instagram.png' alt='insta'/></p>                    
+                    <p><img src='./assets/icons/facebook.png' alt='fb'/></p>
+                    <p><img src='./assets/icons/twitter.png' alt='tweet'/></p>
+                    <p><img src='./assets/icons/pinterest.png' alt='pint'/></p>
+                    <p><img src='./assets/icons/instagram.png' alt='insta'/></p>                    
                     </div>
                 </div>
             </div>
@@ -60,8 +60,6 @@ const Footer = () => {
                     <a href='/'><div><p>Site Map</p></div></a>
                 </div>
             </div>
-
-
         </div>
     </div>
   )

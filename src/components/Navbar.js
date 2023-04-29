@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import './css/nav.css' 
+import './nav.css' 
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='navbar-padding'>
             <div className='nav-items'>
                 <div className='nav-logo'>
-                    <Link to='/home'><img className='nav-img' src="./images/logo.svg" alt="logo" /></Link>
+                    <Link to='/'><img className='nav-img' src="./assets/Logo/logo.svg" alt="logo" /></Link>
                 </div>
                 <div className='nav-links'>
                     <Link to='/review' className='nav-link-item'><span className="material-symbols-outlined item-icon">edit</span>Review</Link>

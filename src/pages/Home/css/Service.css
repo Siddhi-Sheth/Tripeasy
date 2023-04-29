@@ -1,0 +1,88 @@
+.Service{
+  padding: 2rem 2rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+.service-item-div{
+  width: 100%;
+    padding: 0px 2rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+  /* flex-wrap: wrap; */
+    /* margin: 2%;
+    margin-top: 10%; */
+    /* justify-content: space-between; */
+  }
+  
+  .service-item {
+    /* display: inline-flex; */
+    /* padding-left: 20px; */
+    width: 50px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* margin: 2%;
+    margin-top: 10%;
+    justify-content: space-between; */
+    color: #000000;
+    cursor: pointer;
+    /* padding-top: 6%; */
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .service-item:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .service-font {
+    padding: 0%;
+    margin-left: 20px;
+    /* align-items: flex-end; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  
+  .service-item span{
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    /* margin-top: 5px; */
+    margin-right: 8px;
+  }
+
+
+  .more-items{
+    position: absolute;
+    /* padding: 10px; */
+    /* margin: 10px 0px; */
+    align-items: center;
+    text-align: left;
+    /* padding: 5px 5px; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 3px;
+  }
+
+  .more-items div{
+    padding: 11px 11px;
+    font-weight: bold;
+  }
+
+  .more-items div:hover{
+    background-color: aliceblue;
+  }
+
+  .more-btn{
+    position: relative;
+  }

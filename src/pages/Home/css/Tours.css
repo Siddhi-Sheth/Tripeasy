@@ -1,0 +1,41 @@
+.Tours{
+    padding: 4rem 6rem;
+    background-color: white;
+}
+
+.Tours .swiper-slide{
+    height: 450px;
+}
+
+.swiper-whole-div{
+    width: 309px;
+    height: 309px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.tour-img img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.tour-info{
+    color: black;
+}
+
+.tour-place{
+    padding: 10px 0px;
+    font-size: 18px;
+    margin: 0%;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.tour-info p{
+    color: black;
+    font-weight: 600;
+    font-size: 16.5px;
+    margin: 0%;
+    padding: 0%;
+}

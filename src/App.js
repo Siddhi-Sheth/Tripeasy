@@ -1,10 +1,11 @@
 import './App.css';
 import "./style.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Review from './components/Review/Review';
-import Home from './components/Home/Home';
+import Review from './pages/Review/Review';
+import Home from './pages/Home/Home';
 
 function App() {
   return (

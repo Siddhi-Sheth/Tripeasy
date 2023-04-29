@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import './Explore.css';
+import './css/Explore.css';
 
 SwiperCore.use([Navigation,A11y ])
 const Explore = (Props) => {
