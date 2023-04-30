@@ -1,0 +1,69 @@
+.SignIn{
+    margin: 4rem 0rem;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    /* display: none; */
+    display: table;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 2rem 6rem;
+    vertical-align: middle;
+    /* width:100%; */
+}
+
+.sign-in-logo{
+    width: 200px;
+}
+
+.heading{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.sign-in-content{
+    padding: 2rem 0rem;
+}
+
+.sign-in-google, .sign-in-email{
+    display: flex;
+    justify-content:flex-start;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.sign-in-google img, .sign-in-email span{
+    width: 20px;
+    margin-left:35px;
+}
+
+.sign-in-google p, .sign-in-email p{
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    .SignIn{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .SignIn{
+        margin-left: 25%;
+        margin-right: 25%;
+        display: table;
+        vertical-align: middle;
+    }
+}

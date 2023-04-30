@@ -13,7 +13,7 @@ import Exp_data from '../../data/Exp_data';
 const Home = () => {
   return (
     <div>
-        <Service props={service_data}/>
+        {/* <Service props={service_data}/> */}
         <Tours props={Tours_data}/> 
         <List/>
         <Donation/>

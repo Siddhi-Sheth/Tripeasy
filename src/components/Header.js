@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <div className="navbar">
-      <div className="container">
+      <div className="container" style={{"justifyContent": "center"}}>
       <div className='nav-logo'>
             <NavLink to='/'><img className='nav-img' src="./assets/Logo/logo.svg" alt="logo" /></NavLink>
         </div>
@@ -29,7 +29,7 @@ const Header = () => {
             <li>
                 <NavLink to="/alerts" className='nav-link-item'><span className="material-symbols-outlined item-icon">notifications</span>Alerts</NavLink>
             </li>
-            <button type='submit' className='sign-in-btn'>Sign in</button>
+                <NavLink to="/signin" className='nav-btn'><button className='sign-in-btn'>Sign in</button></NavLink>
             <li>
               <NavLink to='/cart' className='nav-link-item'><span className="material-symbols-outlined item-icon">shopping_cart</span>Cart</NavLink>
             </li>
