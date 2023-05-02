@@ -8,7 +8,8 @@ const Othertrip = () => {
             <div className='header'>
                 <h1>Write a review, make someone's trip</h1>
                 <h4>Stories like yours are what helps travellers have better trips.<br/> Share your experience and help out a fellow traveller!</h4>
-                <div className='search-trip'><p><span class="material-symbols-outlined">search</span>What would you like to review?</p></div>
+                {/* <div className='search-trip'><p><span class="material-symbols-outlined">search</span><input type='text' placeholder='What would you like to review?'/></p></div> */}
+                <div className='search-bar-review'><span class="material-symbols-outlined search-icon">search</span><input className='home-search' type='text' placeholder='What would you like to review?'/></div>
             </div>
             <div className='cards'>
                 <div className='cards-img'><img src="./assets/Review/hero_image_1.png" alt='img1'/></div>

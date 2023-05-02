@@ -11,7 +11,9 @@ const Alerts = () => {
     return(
         <div className="main">
             <div className='Alert'>
-                <img src="./assets/Logo/sign-up.svg" alt="logo" className='sign-in-logo'/>
+                <div className='alert-logo-cross'>
+                <img src="./assets/Logo/sign-up.svg" alt="logo" className='sign-in-logo'/><span>X</span>
+                </div>
                 <h4 className='heading'>Sign in to unlock the <br/> best of Tripadvisor.</h4>
                 <div className='sign-in-content'>
                     <div className='sign-in-google'>

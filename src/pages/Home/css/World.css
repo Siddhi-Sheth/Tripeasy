@@ -9,14 +9,13 @@
 }
 
 .Tours .swiper-slide{
-    height: 450px;
+    height:100%;
 }
 
+
 .swiper-whole-div{
-    width: 309px;
-    height: 309px;
-    padding: 0%;
-    margin: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-whole-div:hover h6{
@@ -28,6 +27,7 @@
     object-fit: cover;
     object-position: center;
     width: 100%;
+    height: 100%;
 }
 
 .tour-img:hover{

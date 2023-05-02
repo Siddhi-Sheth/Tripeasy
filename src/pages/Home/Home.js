@@ -9,11 +9,12 @@ import service_data from '../../data/service_data';
 import Tours_data from '../../data/Tours_data';
 import Holiday_data from '../../data/Holiday_data';
 import Exp_data from '../../data/Exp_data';
+import Main from './Main';
 
 const Home = () => {
   return (
     <div>
-        {/* <Service props={service_data}/> */}
+        <Main/>
         <Tours props={Tours_data}/> 
         <List/>
         <Donation/>

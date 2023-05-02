@@ -4,37 +4,36 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import './css/Tours.css'
+import './css/World.css'
 
 SwiperCore.use([Navigation,A11y ])
-const Tours = (Props) => {
+const World = (Props) => {
     const Exp_data = Props.props
     
   return (
     <div className='Tours'>
-        <h4>Ways to tour Pune</h4>
-        <p>Book these experiences for a close-up look at Pune.</p>
+        <h4>Explore Disneyland</h4>
         <Swiper 
             spaceBetween={15}
             slidesPerView={4}
             breakpoints={{
-              // when window width is >= 640px
-              320: {
-                  width: 320,
-                  slidesPerView: 1,
-                  spaceBetween: 20,
+                // when window width is >= 640px
+                320: {
+                    width: 320,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                640: {
+                  width: 640,
+                  slidesPerView: 2,
+                  spaceBetween:18
                 },
-              640: {
-                width: 640,
-                slidesPerView: 2,
-                spaceBetween:18
-              },
-              // when window width is >= 768px
-              768: {
-                width: 768,
-                slidesPerView: 2.3,
-              },
-            }}
+                // when window width is >= 768px
+                768: {
+                  width: 768,
+                  slidesPerView: 2.3,
+                },
+              }}
             navigation
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
@@ -58,4 +57,4 @@ const Tours = (Props) => {
   )
 }
 
-export default Tours
+export default World

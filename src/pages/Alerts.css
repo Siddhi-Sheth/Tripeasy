@@ -6,11 +6,29 @@
 .Alert{
     display: table;
     justify-content: center;
-    padding: 0rem 8rem;
+    padding: 1rem 8rem;
     vertical-align: middle;
     background-color: white;
-    margin: 0% 20%;
+    margin: 4% 20%;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #fff;
 }
+
+.alert-logo-cross{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.alert-logo-cross span{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+}
+
 
 .Terms-conditions{
     padding-top: 2.5rem;

@@ -13,7 +13,7 @@ const SignIn = () => {
           </div>
           <div className='sign-in-email'>
             <span class="material-symbols-outlined">mail</span>
-            <p>Continue with emial</p>
+            <p>Continue with email</p>
           </div>
         </div>
     </div>

@@ -1,0 +1,63 @@
+.Trips{
+    padding: 4rem 4rem;
+    background-color: white;
+}
+
+.Trip-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+}
+
+.Trip-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: 5%;
+    height: fit-content;
+}
+
+.Trip-info p{
+    font-size: 16px;
+    color: grey;
+}
+
+.Trip-map{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    gap: 15px;
+    justify-content: right;
+    height: fit-content;
+}
+
+.Trip-map img {
+    object-fit: cover;
+    overflow: hidden;
+    width:200px;
+    height: auto;
+}
+.trip-btn{
+    border-radius: 0%;
+}
+
+.trip-btn-info p{
+    font-size: 13px;
+    color: black;
+}
+
+.login{
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.login:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:760px) {
+    .Trip-map{
+        display: none;
+    }
+}

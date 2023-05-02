@@ -124,6 +124,22 @@
     text-align: center;
 }
 
+.search-bar-review{
+    display: flex;
+    bottom: 200px;
+    color: black;
+    background-color: white;
+    width:70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    justify-content:left;
+    align-items: center;
+    border:1px solid #333333;
+}
+
+
 @media screen and (min-width:761px) {
     .header .search-trip{
         width: 85%;
