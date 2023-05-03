@@ -12,7 +12,7 @@ const Alerts = () => {
         <div className="main">
             <div className='Alert'>
                 <div className='alert-logo-cross'>
-                <img src="./assets/Logo/logo-only.png" alt="logo" className='sign-in-logo'/><span>X</span>
+                <img src="./assets/Logo/logo-icon-black.png" alt="logo" className='sign-in-logo'/><span>X</span>
                 </div>
                 <h4 className='heading'>Sign in to unlock the <br/> best of Tripeasy.</h4>
                 <div className='sign-in-content'>

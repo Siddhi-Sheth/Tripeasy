@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='Navbar'>
         <div className='nav-logo'>
             <Link to="/">
-                <img src="./assets/Logo/logo-no-background.png" alt='logo'/>
+                <img src="./assets/Logo/logo.png" alt='logo'/>
             </Link>
             <div className="menu-icon" onClick={handleShowNavbar}>
               <span class="material-symbols-outlined">more_horiz</span>

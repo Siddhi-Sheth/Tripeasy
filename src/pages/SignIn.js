@@ -4,7 +4,7 @@ import './SingIn.css'
 const SignIn = () => {
   return (
     <div className='SignIn'>
-        <img src="./assets/Logo/logo-only.png" alt="logo" className='sign-in-logo'/>
+        <img src="./assets/Logo/logo-icon-blue.png" alt="logo" className='sign-in-logo'/>
         <h4 className='heading'>Sign in to unlock the <br/> best of Tripeasy.</h4>
         <div className='sign-in-content'>
           <div className='sign-in-google'>
