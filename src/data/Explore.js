@@ -11,7 +11,7 @@ const Exp_data = [
     },
     {
       Id : 3,
-      img : './assets/Explore/exp3.1.jpg',
+      img : './assets/Explore/exp3.jpg',
       url : '4 best hawker centers in Singapore and what to eat there'
     },
     {
@@ -25,8 +25,13 @@ const Exp_data = [
       url : "7 Bangkok hotels that highlight Thailand's spectacular architecture"
     },
     {
+      Id : 5,
+      img : './assets/Explore/exp5.jpg',
+      url : "10 places to visit your favourite TV shows and films in 2023"
+    },
+    {
       Id : 7,
-      img : './assets/Explore/exp7.7.jpg',
+      img : './assets/Explore/exp7.jpg',
       url : 'Guide to planning a day trip to the Blue Mountains from Sydney'
     },
     {
@@ -36,18 +41,13 @@ const Exp_data = [
     },
     {
       Id : 9,
-      img : './assets/Explore/exp9.9.jpg',
+      img : './assets/Explore/exp9.jpg',
       url : '11 beautiful places in India that have to be seen to be believed'
     },
     {
       Id : 10,
-      img : './assets/Explore/exp10.10.jpg',
+      img : './assets/Explore/exp10.jpg',
       url : "A pizza lover's guide to Tokyo"
-    },
-    {
-      Id : 5,
-      img : './assets/Explore/exp5.5.jpg',
-      url : "10 places to visit your favourite TV shows and films in 2023"
     },
   ];
   

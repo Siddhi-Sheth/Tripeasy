@@ -1,7 +1,7 @@
 import React from 'react'
 import Tours from './Home/Tours'
-import Tours_data from '../data/Tours_data'
-import World_data from '../data/World_data'
+import Tours_data from '../data/Tours'
+import World_data from '../data/World'
 import World from './Home/World'
 import './Basket.css'
 

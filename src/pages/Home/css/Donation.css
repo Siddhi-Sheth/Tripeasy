@@ -4,11 +4,12 @@
 
 .donation-wrap{
     display: flex;
-    background-color: #f2b203;
+    background-color: #FFD95A;
     max-height: 600px;
     flex-direction: row;
     padding: 2rem 2rem;
     align-items: center;
+    color: black;
 }
 
 .donation-content{
@@ -19,7 +20,6 @@
 
 .donation-content p{
     line-height: 22px;
-    color: #333;
     margin-top: 10px;
 }
 
@@ -38,7 +38,13 @@
 }
 
 .donation-content-img{
-    width: 20px;
+    width: 50px;
+}
+
+.donation-content span{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 @media screen and (min-width:320px ) and (max-width:698px) {

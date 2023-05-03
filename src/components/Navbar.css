@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    gap: 50px;
 }
 
 .nav-logo img{
@@ -16,13 +17,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: black;
 }
 
 .nav-links {
+    display: flex;
     text-decoration: none;
     list-style: none;
-    display: flex;
     gap: 70px;
     justify-content: space-between;
     flex-direction: row;
@@ -33,11 +33,10 @@
     color: black;
     text-decoration: none;
     font-weight: bold;
-    /* padding: 3px; */
 }
 
 .nav-links a:hover{
-    text-decoration: underline;
+    text-decoration: underline solid rgb(31, 90, 116);
     color: black;
 }
 
@@ -49,14 +48,89 @@
     background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
-    /*font-size: 16px; */
     border-radius: 50px;
     cursor: pointer;
-    /* text-align: center; */
-    /* margin-top: 0%; */
     border-style: none;
   }
   
   .sign-in-btn:hover {
     background-color: #333;
   }
+
+  .menu-icon {
+    display: none;
+  }
+
+  @media screen and (max-width:876px) {
+    .Navbar{
+        padding: 2rem 0.5rem;
+        justify-content: center;
+        gap: 50px;
+    }
+    .nav-links{
+        gap: 15px;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    .Navbar{
+        padding: 2rem 4rem;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .nav-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+      }
+
+      .menu-icon span{
+        font-size: 30px;
+        color: black;
+        font-weight: bolder;
+      }
+
+      .nav-items{
+        position:absolute;
+        background-color: #e0e0e0;
+        right: 5px;
+        top: 60px;
+        width: 0px;
+        height: 300px;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+        justify-content: center;
+        border-radius: 20px;
+        -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+        -webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+        box-shadow: 0px 3px 8px rgb(100,100,100);
+        z-index: 1;
+      }
+
+      .nav-items.active {
+        margin-top: 40px;
+        width: 150px;
+      }
+
+      .nav-items li {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+
+      .nav-items li Link{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  } 

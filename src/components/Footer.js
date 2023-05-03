@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='div_footer footer-padding'>
             <div className='footer-links'>
                 <div className='footer-links-div'>
-                    <h4>About Tripadvisor</h4>
+                    <h4>About Tripeasy</h4>
                     <a href='/'><p>About us</p></a>
                     <a href='/'><p>Press</p></a>
                     <a href='/'><p>Resources and Policies</p></a>
@@ -43,13 +43,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            
             <hr></hr>
-
             <div className='footer-below'>
                 <div className='footer-copyright'>
                     <p>
-                        @{new Date().getFullYear()} Tripadvisor LLC All rights reserved.
+                        @{new Date().getFullYear()} Tripeasy LLC All rights reserved.
                     </p>
                 </div>
                 <div className='footer-below-links'>
@@ -66,10 +64,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-// Press
-// Resources and Policies
-// Careers
-// Trust & Safety
-// Contact us
-// Accessibility Statement

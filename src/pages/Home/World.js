@@ -12,7 +12,7 @@ const World = (Props) => {
     
   return (
     <div className='Tours'>
-        <h4>Explore Disneyland</h4>
+        <h4>Explore World</h4>
         <Swiper 
             spaceBetween={15}
             slidesPerView={4}

@@ -1,15 +1,13 @@
 import React from 'react'
+import Main from './Main';
+import Tours from './Tours';
+import List from './List';
+import Donation from './Donation';
 import Explore from './Explore';
 import Holidays from './Holidays';
-import Tours from './Tours';
-import Donation from './Donation';
-import List from './List';
-import Service from './Service';
-import service_data from '../../data/service_data';
-import Tours_data from '../../data/Tours_data';
-import Holiday_data from '../../data/Holiday_data';
-import Exp_data from '../../data/Exp_data';
-import Main from './Main';
+import Tours_data from '../../data/Tours';
+import Holiday_data from '../../data/Holiday';
+import Exp_data from '../../data/Explore';
 
 const Home = () => {
   return (
